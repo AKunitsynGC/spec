@@ -37,4 +37,5 @@
   <commonModules>CommonModule.ВызовСервера</commonModules>
   <constants>Constant.НазваниеОрганизации</constants>
   <constants>Constant.АдресОрганизации</constants>
+  <catalogs>Catalog.Контрагенты</catalogs>
 </mdclass:Configuration>

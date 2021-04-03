@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a861569-fb6f-49a8-81c7-8b2415a72945">
+  <producedTypes>
+    <objectType typeId="e84825c4-f55d-4944-8496-b8bac592c651" valueTypeId="ca76023d-4e0c-43ab-b6f2-ebdea3cd1e42"/>
+    <refType typeId="94e84281-c210-44e4-8694-07f1c5a7eb8e" valueTypeId="a920d78d-0b47-4cdc-be7e-68613cba63e6"/>
+    <selectionType typeId="7594cbda-9bfd-49c1-99f0-0cc771712d16" valueTypeId="3ddaec8b-4276-4416-b794-8f2b509155d7"/>
+    <listType typeId="52f3db0a-5276-425e-8bdb-28961d30299c" valueTypeId="d86d8314-962a-4bf9-93b1-4f830d9fcd7f"/>
+    <managerType typeId="2de7c0e4-4d21-49b3-8229-79b8a353b444" valueTypeId="ff95f2c7-fab4-4ab1-86ae-b96211965e79"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Контрагент2</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контрагенты3</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Контрагенты4</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Контрагенты5</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="187e9032-54bd-4dfe-b47d-1076f13a046f">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask>+7(999)999-9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

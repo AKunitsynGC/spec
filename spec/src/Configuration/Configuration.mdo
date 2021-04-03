@@ -34,5 +34,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.ВызовСервера</commonModules>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.АдресОрганизации</constants>
 </mdclass:Configuration>

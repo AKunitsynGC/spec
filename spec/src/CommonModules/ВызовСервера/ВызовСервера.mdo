@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79657288-1aaf-4e31-960a-886d5a2295bf">
-  <name>ОбщегоНазначенияСервер</name>
+  <name>ВызовСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Общего назначения сервер</value>
+    <value>Вызов сервера</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>
